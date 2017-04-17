@@ -1,6 +1,5 @@
 package cal;
 
-//本次提交只为了体验某些GitHub上的功能
 import java.awt.Dimension;
 import java.awt.FlowLayout;
 import java.awt.event.ActionEvent;
@@ -21,7 +20,7 @@ public class CalWindow {
 	protected JTextField textField1;
 	protected JLabel label1;
 	protected int flag = 0;
-	protected boolean isPressEqual = false; 
+	protected boolean isPressEqual = false;
 
 	public void init() {
 		JFrame frame = new JFrame();
